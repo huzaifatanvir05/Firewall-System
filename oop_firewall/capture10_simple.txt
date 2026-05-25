@@ -1,0 +1,73 @@
+[WARNING] Not running as Administrator!
+         Windows Firewall rules cannot be added.
+         Running in limited mode so capture can continue.
+
+[LogManager] Initialized. Log: logs/firewall.log
+[WinFW] COM initialized successfully.
+[FirewallEngine] Initialized.
+
+=== Available Network Interfaces ===
+  [0] \Device\NPF_{7DAECA32-372D-4CD3-A705-6A3373C76F4B} (WAN Miniport (Network Monitor))
+  [1] \Device\NPF_{E8C92931-8AE3-4C06-82BA-7057D55DE3E0} (WAN Miniport (IPv6))
+  [2] \Device\NPF_{7902657D-66D8-4531-9DCB-501352ED9034} (WAN Miniport (IP))
+  [3] \Device\NPF_{C85DB254-AE32-4820-8528-6C172F7DF40E} (Intel(R) Dual Band Wireless-AC 8265)
+  [4] \Device\NPF_{42FD02A3-9FA7-405E-9744-C10834DF4054} (Microsoft Wi-Fi Direct Virtual Adapter #2)
+  [5] \Device\NPF_{B703F5FE-2B58-4851-BA4E-5BD40F4C970F} (Microsoft Wi-Fi Direct Virtual Adapter)
+  [6] \Device\NPF_Loopback (Adapter for loopback traffic capture)
+  [7] \Device\NPF_{AC9637E0-2472-477E-8295-CC19322F8204} (TAP-Windows Adapter V9)
+  [8] \Device\NPF_{9AFBC552-BC3C-4BCC-9E78-D058D562A4D0} (Intel(R) Ethernet Connection (4) I219-LM)
+====================================
+
+[PacketSniffer] Auto-selected interface: Intel(R) Dual Band Wireless-AC 8265
+[PacketSniffer] Initialized on interface: \Device\NPF_{C85DB254-AE32-4820-8528-6C172F7DF40E}
+[FirewallEngine] Rule added: [Rule RULE_BLOCK_TELNET] BLOCK TCP * -> * port=23 prio=10
+[FirewallEngine] Rule added: [Rule RULE_BLOCK_SMTP_RELAY] BLOCK TCP * -> * port=25 prio=20
+[FirewallEngine] Rule added: [Rule RULE_BLOCK_NETBIOS] BLOCK UDP * -> * port=137 prio=30
+[FirewallEngine] Rule added: [Rule RULE_ALLOW_DNS] ALLOW UDP * -> * port=53 prio=5
+[FirewallEngine] Rule added: [Rule RULE_ALLOW_HTTP] ALLOW TCP * -> * port=80 prio=6
+[FirewallEngine] Rule added: [Rule RULE_ALLOW_HTTPS] ALLOW TCP * -> * port=443 prio=7
+
+[Main] System ready. 2026-05-20 05:37:15
+
+╔════════════════════════════════════════╗
+║        C++ Firewall System v1.0        ║
+╠════════════════════════════════════════╣
+║ [1] Start packet capture               ║
+║ [2] Stop  packet capture               ║
+║ [3] Add BLOCK rule (IP)                ║
+║ [4] Add ALLOW rule (IP)                ║
+║ [5] Block a port                       ║
+║ [6] Display all log entries            ║
+║ [7] Search logs by IP                  ║
+║ [8] Show recent 20 log entries         ║
+║ [9] Show statistics                    ║
+║ [10] Show active connections           ║
+║ [11] Show firewall rules               ║
+║ [12] List network interfaces           ║
+║ [13] Change interface                  ║
+║ [0] Exit                               ║
+╚════════════════════════════════════════╝
+Choice: === Active Connections (0) ===
+
+╔════════════════════════════════════════╗
+║        C++ Firewall System v1.0        ║
+╠════════════════════════════════════════╣
+║ [1] Start packet capture               ║
+║ [2] Stop  packet capture               ║
+║ [3] Add BLOCK rule (IP)                ║
+║ [4] Add ALLOW rule (IP)                ║
+║ [5] Block a port                       ║
+║ [6] Display all log entries            ║
+║ [7] Search logs by IP                  ║
+║ [8] Show recent 20 log entries         ║
+║ [9] Show statistics                    ║
+║ [10] Show active connections           ║
+║ [11] Show firewall rules               ║
+║ [12] List network interfaces           ║
+║ [13] Change interface                  ║
+║ [0] Exit                               ║
+╚════════════════════════════════════════╝
+Choice: [PacketSniffer] Shutdown.
+[FirewallEngine] Shutdown.
+[LogManager] Shutdown. Total entries: 152
+[Main] Goodbye.

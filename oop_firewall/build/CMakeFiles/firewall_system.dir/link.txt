@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\firewall_system.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\firewall_system.dir/objects.a @CMakeFiles\firewall_system.dir\objects1.rsp
+C:\msys64\ucrt64\bin\c++.exe -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\firewall_system.dir/objects.a -Wl,--no-whole-archive -o C:\Users\DELL\Downloads\oop_firewall\bin\Release\firewall_system.exe -Wl,--out-implib,libfirewall_system.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\firewall_system.dir\linkLibs.rsp

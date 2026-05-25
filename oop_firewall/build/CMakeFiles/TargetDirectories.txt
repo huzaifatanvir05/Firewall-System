@@ -1,0 +1,3 @@
+C:/Users/DELL/Downloads/oop_firewall/build/CMakeFiles/firewall_system.dir
+C:/Users/DELL/Downloads/oop_firewall/build/CMakeFiles/edit_cache.dir
+C:/Users/DELL/Downloads/oop_firewall/build/CMakeFiles/rebuild_cache.dir
